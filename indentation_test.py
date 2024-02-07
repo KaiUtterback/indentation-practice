@@ -69,9 +69,9 @@ MAX_LIMIT = 1000
 #Task 1: Code Correction
 
 variable_a = "Hello, World!" # string
-variable_b = 23 # integer
-variable_c = 3.14 # float
-variable_d = True # boolean
+variable_b = 23              # integer
+variable_c = 3.14            # float
+variable_d = True            # boolean
 
 print(type(variable_a))
 print(type(variable_b))
