@@ -37,4 +37,22 @@ else:
 # If ever Python I should leave
 # Just come along and follow me
 
- 
+#  Task 2 Multi line Poem with Tripple quotes 
+    
+"""
+Python you rock
+you're the cream of the crop
+I know one day you'll rise to the top
+with victory in hand
+your enemies can eat sand
+Python your victory is close at hand
+"""
+
+# Task 3: Combining Single and Multi-line comments
+
+# Python, in the real of code you shine, 
+"""
+you're the cream of the crop
+"""
+
+# 
