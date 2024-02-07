@@ -77,3 +77,34 @@ print(type(variable_a))
 print(type(variable_b))
 print(type(variable_c))
 print(type(variable_d))
+
+# Python Dynamic Typing Practice
+
+# Task 1  Code Creation
+
+dynamic_variable = "this is a string"
+print(dynamic_variable, (type(dynamic_variable)))
+dynamic_variable = 100
+print(dynamic_variable, (type(dynamic_variable)))
+dynamic_variable = 25.5
+print(dynamic_variable, (type(dynamic_variable)))
+
+# Arithmetic Operations in Daily Life
+
+# Grocery Store Math
+
+eggs = 4.25
+milk = 5
+Steak = 12
+
+total_cost = eggs + milk + Steak
+
+print("Your total is", total_cost)
+
+# Bank interest
+
+savings_total = 1250
+interest_rate = 0.25
+apy = savings_total * interest_rate
+
+print("Your total APY is", apy)
