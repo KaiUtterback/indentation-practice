@@ -108,3 +108,48 @@ interest_rate = 0.25
 apy = savings_total * interest_rate
 
 print("Your total APY is", apy)
+
+# Area and Perimeter
+
+rectangle_length = 4 
+rectangle_width = 6
+rectangle_area = rectangle_length * rectangle_width
+rectangle_perimeter = rectangle_length * 2 + rectangle_width * 2
+
+print("The area of the rectangle is", rectangle_area)
+print("The perimeter of the rectangle is", rectangle_perimeter)
+
+# Understanding Assignments and Comparisons
+
+# Value Swapping
+
+dragon_teeth = 460
+dragon_teeth -=20
+print(dragon_teeth)
+
+dragon_scales = 500
+dragon_scales += 50
+print (dragon_scales)
+
+are_teeth_and_scales_equal = dragon_teeth == dragon_scales
+print(are_teeth_and_scales_equal)
+
+# Perfect Square Checker
+
+import math
+
+def is_perfect_square(num):
+    if num < 0:
+        return False
+    sqrt_num = math.isqrt(num)
+    return sqrt_num * sqrt_num == num
+
+num = int(input("Enter a number to see if it is a perfect square: "))
+if is_perfect_square(num):
+    print(num, "is a perfect square.")
+else:
+    print(num, "is not a perfect square.")
+
+# Exploring Logical Operations and Precedence
+    
+# Task 1: Simple Logic Puzzles
