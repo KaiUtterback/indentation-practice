@@ -30,7 +30,7 @@ else:
     
 # Task 1: Create a poem
     
-# Python, in the real of code you shine, 
+# Python, in the realm of code you shine, 
 # With simplicity an dgrace, you're truly devine
 # Your sipmle code is like no other
 # We were meant to work with one another
@@ -50,7 +50,7 @@ Python your victory is close at hand
 
 # Task 3: Combining Single and Multi-line comments
 
-# Python, in the real of code you shine, 
+# Python, in the realm of code you shine, 
 """
 you're the cream of the crop
 """
