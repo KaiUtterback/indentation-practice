@@ -166,3 +166,14 @@ print("Is it a pterodactyl?", is_cat)
 
 is_dog = has_teeth and not has_scales
 print("Is it a dog?", is_dog)
+
+# Task 2 Validating Calculations
+
+math_question1 = 3 + 2 * 9
+print(math_question1)
+
+math_question2 = (3 + 2) * 9
+print(math_question2)
+
+are_answers_equal = math_question1 == math_question2
+print("Are the answers to the math question equal?", are_answers_equal)
