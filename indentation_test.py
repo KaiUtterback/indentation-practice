@@ -95,9 +95,9 @@ print(dynamic_variable, (type(dynamic_variable)))
 
 eggs = 4.25
 milk = 5
-Steak = 12
+steak = 12
 
-total_cost = eggs + milk + Steak
+total_cost = eggs + milk + steak
 
 print("Your total is", total_cost)
 
@@ -188,3 +188,5 @@ Then, (7 % 3 != 0) evaluates to True because 7 % 3 equals 1, which is not equal 
 Finally, (True and True) or True evaluates to True because both conditions True and True and True are satisfied.
 """
 print("Result:", result)
+
+# Thank you for taking the time to grade my assignment
