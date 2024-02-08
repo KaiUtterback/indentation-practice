@@ -177,3 +177,14 @@ print(math_question2)
 
 are_answers_equal = math_question1 == math_question2
 print("Are the answers to the math question equal?", are_answers_equal)
+
+# Task 3 Mix and Match
+
+result = (10 + 5 > 8) and (3 * 2 == 6) or (7 % 3 != 0)
+"""
+First, (10 + 5 > 8) evaluates to True because 10 + 5 equals 15, which is greater than 8.
+Next, (3 * 2 == 6) evaluates to True because 3 * 2 equals 6.
+Then, (7 % 3 != 0) evaluates to True because 7 % 3 equals 1, which is not equal to 0.
+Finally, (True and True) or True evaluates to True because both conditions True and True and True are satisfied.
+"""
+print("Result:", result)
