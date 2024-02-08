@@ -154,4 +154,15 @@ else:
     
 # Task 1: Simple Logic Puzzles
 
-#TEST
+has_teeth = True
+has_scales = False
+can_fly = True
+
+is_dragon = has_teeth or has_scales or can_fly
+print("Is it a dragon", is_dragon)
+
+is_cat = has_teeth and has_scales and can_fly
+print("Is it a pterodactyl?", is_cat)
+
+is_dog = has_teeth and not has_scales
+print("Is it a dog?", is_dog)
